@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-custom {
+    @apply 
+    transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-300 
+    cursor-pointer
+    shadow-2xl h-14 w-96 rounded-lg 
+    border border-transparent bg-blue-600 
+    py-3 px-4 
+    text-lg font-bold text-white 
+    hover:bg-blue-800 focus:outline-none 
+    focus:ring-2 focus:ring-blue-500 focus:ring-offset-2
+    {/* Rose-900 */}
+}
+
+.btn-custom2 {
+    @apply 
+    transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-150 
+    cursor-pointer
+    shadow-2xl h-14 w-32 rounded-lg 
+    border border-transparent bg-blue-600 
+    py-3 px-4 
+    text-lg font-bold text-white 
+    hover:bg-blue-800 focus:outline-none 
+    focus:ring-2 focus:ring-blue-500 focus:ring-offset-2
+    {/* Rose-900 */}
+}
+
+.btn-crear {
+    @apply 
+    transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-150 
+    cursor-pointer
+    shadow-2xl h-12 w-28 rounded-lg 
+    border border-transparent bg-rose-800 
+    py-2 px-4 
+    text-lg font-bold text-white 
+    hover:bg-rose-900 focus:outline-none 
+    focus:ring-2 focus:ring-rose-900 focus:ring-offset-2
+    {/* Rose-900 */}
+}
+
+.btn-crear2 {
+    @apply 
+    transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110 duration-150 
+    cursor-pointer
+    h-12 w-28 rounded-lg 
+    border border-transparent bg-white 
+    py-2 px-4 
+    text-lg font-bold text-rose-800  
+    hover:text-rose-900 focus:outline-none 
+    focus:ring-2 focus:ring-rose-900 
+    {/* Rose-900 */}
+}
+
+.selector1 {
+    @apply
+    mt-1 block w-80 rounded-md 
+    border border-rose-900 
+    bg-white py-2 px-3 
+    shadow-sm 
+    focus:border-rose-900 focus:outline-none focus:ring-rose-900
+}
+
+.selector2 {
+    @apply
+    mt-1 block w-80 h-7 rounded-md 
+    border border-rose-900 
+    bg-white py-0 px-3 
+    shadow-sm 
+    focus:border-rose-900 focus:outline-none focus:ring-rose-900
+}
+
